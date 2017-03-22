@@ -7,7 +7,7 @@ This repository contains the ruby client library for the GLS Europe Track&Trace 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'gls'
+gem 'gls_track_and_trace'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install gls
+    $ gem install gls_track_and_trace
 
 ## Usage
 
@@ -60,7 +60,7 @@ package_history = package_details.package_history
 
 ## Contributing
 
-1. Fork it ( https://github.com/mixit/gls-client )
+1. Fork it ( https://github.com/Mixit-cz/gls_track_and_trace )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
