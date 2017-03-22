@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <p793:TuDetailsResponse
+            xmlns:p793="http://gls-group.eu/Tracking/">
+            <p793:ExitCode>
+                <p793:ErrorCode>998</p793:ErrorCode>
+                <p793:ErrorDscr>No data found</p793:ErrorDscr>
+            </p793:ExitCode>
+            <p793:TuNo xsi:nil="true"/>
+            <p793:NationalRef xsi:nil="true"/>
+            <p793:ConsigneeAddress xsi:nil="true"/>
+            <p793:ShipperAddress xsi:nil="true"/>
+            <p793:RequesterAddress xsi:nil="true"/>
+            <p793:DeliveryDateTime xsi:nil="true"/>
+            <p793:PickupDateTime xsi:nil="true"/>
+            <p793:Product xsi:nil="true"/>
+            <p793:TuWeight>0.0</p793:TuWeight>
+        </p793:TuDetailsResponse>
+    </soapenv:Body>
+</soapenv:Envelope>

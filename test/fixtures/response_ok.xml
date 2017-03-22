@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <p793:TuDetailsResponse
+            xmlns:p793="http://gls-group.eu/Tracking/">
+            <p793:ExitCode>
+                <p793:ErrorCode>0</p793:ErrorCode>
+                <p793:ErrorDscr>OK</p793:ErrorDscr>
+            </p793:ExitCode>
+            <p793:TuNo>55123456789</p793:TuNo>
+            <p793:ConsigneeAddress>
+              <p793:Name1>Consignee Name 1</p793:Name1>
+              <p793:Name2></p793:Name2>
+              <p793:Name3/>
+              <p793:ContactName/>
+              <p793:Street1>Consignee Street 1</p793:Street1>
+              <p793:BlockNo1/>
+              <p793:Street2/>
+              <p793:BlockNo2/>
+              <p793:ZipCode>12-345</p793:ZipCode>
+              <p793:City>Consignee City</p793:City>
+              <p793:Province/>
+              <p793:Country>PL</p793:Country>
+            </p793:ConsigneeAddress>
+            <p793:DeliveryDateTime>
+              <p793:Year>2012</p793:Year>
+              <p793:Month>2</p793:Month>
+              <p793:Day>17</p793:Day>
+              <p793:Hour>7</p793:Hour>
+              <p793:Minut>44</p793:Minut>
+            </p793:DeliveryDateTime>
+            <p793:CustomerReference>
+              <p793:ReferenceValue>10129729</p793:ReferenceValue>
+            </p793:CustomerReference>
+            <p793:TuWeight>10.5</p793:TuWeight>
+            <p793:History>
+              <p793:Date>
+                <p793:Year>2012</p793:Year>
+                <p793:Month>2</p793:Month>
+                <p793:Day>17</p793:Day>
+                <p793:Hour>7</p793:Hour>
+                <p793:Minut>44</p793:Minut>
+              </p793:Date>
+              <p793:LocationCode>DE 330</p793:LocationCode>
+              <p793:LocationName>Braunschweig</p793:LocationName>
+              <p793:CountryName>Germany</p793:CountryName>
+              <p793:Code>3.0</p793:Code>
+              <p793:Desc>Delivered</p793:Desc>
+            </p793:History>          
+        </p793:TuDetailsResponse>
+    </soapenv:Body>
+</soapenv:Envelope>
