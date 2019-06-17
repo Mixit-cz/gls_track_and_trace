@@ -12,9 +12,9 @@ module GlsTrackAndTrace
     ENDPOINT_URL = 'https://www.gls-group.eu:443/276-I-PORTAL-WEBSERVICE/services/Tracking'
 
     SOAP_ACTIONS = {
-      'GetTuDetail' => 'http://gls-group.eu/Tracking/TUDetailOperation',
-      'GetTuList' => 'http://gls-group.eu/Tracking/TUListOperation',
-      'GetTuPOD' => 'http://gls-group.eu/Tracking/TUPODOperation'      
+      'GetTuDetail' => 'https://www.gls-group.eu/Tracking/TUDetailOperation',
+      'GetTuList' => 'https://www.gls-group.eu/Tracking/TUListOperation',
+      'GetTuPOD' => 'https://www.gls-group.eu/Tracking/TUPODOperation'      
     }
 
     def initialize(username, password, options = {})
